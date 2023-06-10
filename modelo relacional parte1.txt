@@ -1,0 +1,8 @@
+Modelo Relacional parte 1
+Medios_de_Comunicacion(pk(id_medio),ubicacion,año_fundacion,cobertura,fundador(es))
+Redes_Sociales(pk(nombre_red_social,nombre_usuario),seguidores,ultima_actualizacion,fk(id_medio))
+Sitios_web(pk(id_sitioweb),url,fk(id_medio))
+Categorias(url_categoria,pk(id_categoria),nombre_categoria,xpath_categoria,fk(id_sitioweb))
+Noticia(pk(id_noticia),url_noticia,xpath_fecha,xpath_titulo,xpath_contenido,fk(id_sitioweb))
+
+

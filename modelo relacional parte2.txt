@@ -1,0 +1,12 @@
+Modelo relacional parte 2
+Pais(pk(id_pais))
+Region(pk(codigo_region),nombre_region,fk(id_pais))
+Comuna(pk(codigo_comuna),poblacion,superficie,nombre_comuna,fk(codigo_region))
+Trabajo(pk(id_trabajo),hombres_desocupados,hombres_ocupados,mujeres_ocupadas,mujeres_desocupadas)
+Salud(pk(id_salud),n_farmacias,n_centros_salud)
+Indices_educativos(pk(id_indice_educativo),tipo_establecimiento,nivel_establecimiento,promedio_puntaje_simce)
+Seguridad(pk(id_seguridad),n_establecimientos_policiales,tasa_delictual)
+Ofrecer(pk(fk(id_trabajo,codigo_comuna)))
+Cuenta_con(pk(fk(id_salud,codigo_comuna)))
+Tener(pk(fk(id_seguridad,codigo_comuna)))
+Poseer(pk(fk(id_indice,codigo_comuna)))

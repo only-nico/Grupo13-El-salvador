@@ -1,15 +1,15 @@
 numero;direccion;año de fundacion;cobertura;fundadores;medio de prensa
-1;Calle Rubén Darío No. 71, San Salvador;1965;Francisco Sol Rivas y Carlos Dada;Diario El Mundo;
-2;Avenida Monseñor Óscar Arnulfo Romero, San Salvador;1915;Luis Edmundo Vásquez, León Cortés Castro y Eduardo Sol;La Prensa Gráfica;
-3;Calle La Reforma y Boulevard Los Próceres, San Salvador;1932;Federico Mejía y Óscar Hagerman;El Diario de Hoy;
-4;3ª Calle Poniente y 11 Avenida Sur #428, San Salvador;1998;Jorge Simán y Carlos Dada;El Faro;
-5;5a Avenida Norte #304, San Salvador;1980;Dagoberto Gutiérrez y Carlos Dada;Diario Co Latino;
-6;Calle Arce No. 503, San Salvador;1969;-;La Tribuna;
-7;3a Calle Oriente #428, San Miguel;1990;-;Contrapunto;
-8;Boulevard Merliot y Calle Teziutlán Sur, Santa Tecla;1990;-;El Independiente;
-9;No disponible;2011;-;El Salvador Times;
-10;No disponible;2009;-;El Blog;
-11;No disponible;2011;-;Diario1;
-12;No disponible;1993;-;La Página;
-13;No disponible;2012;-;Gato Encerrado;
-14;Calle Las Rosas, Colonia Flor Blanca San Salvador;1980;Mauricio Funes y María Haydée Chicas;Diario El Salvador;
+1;Calle Rubén Darío No. 71, San Salvador;1965;Internacional;Francisco Sol Rivas y Carlos Dada;Diario El Mundo
+2;Avenida Monseñor Óscar Arnulfo Romero, San Salvador;1915;Internacional;Luis Edmundo Vásquez, León Cortés Castro y Eduardo Sol;La Prensa Gráfica
+3;Calle La Reforma y Boulevard Los Próceres, San Salvador;1932;Internacional;Federico Mejía y Óscar Hagerman;El Diario de Hoy
+4;3ª Calle Poniente y 11 Avenida Sur #428, San Salvador;1998;Nacional;Jorge Simán y Carlos Dada;El Faro
+5;5a Avenida Norte #304, San Salvador;1980;Nacional;Dagoberto Gutiérrez y Carlos Dada;Diario Co Latino
+6;Calle Arce No. 503, San Salvador;1969;Nacional;-;La Tribuna
+7;3a Calle Oriente #428, San Miguel;1990;Nacional;-;Contrapunto
+8;Boulevard Merliot y Calle Teziutlán Sur, Santa Tecla;1990;Nacional;-;El Independiente
+9;No disponible;2011;Nacional;-;El Salvador Times
+10;No disponible;2009;Nacional;-;El Blog
+11;No disponible;2011;Nacional;-;Diario1
+12;No disponible;1993;Nacional;-;La Página
+13;No disponible;2012;Nacional;-;Gato Encerrado
+14;Calle Las Rosas, Colonia Flor Blanca San Salvador;1980;Nacional;Mauricio Funes y María Haydée Chicas;Diario El Salvador

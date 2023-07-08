@@ -25,7 +25,7 @@ CREATE TABLE Redes_Sociales (
 -- Crear tabla Sitios_web
 CREATE TABLE Sitios_web (
   id_sitioweb INT PRIMARY KEY,
-  url VARCHAR(100),
+  url VARCHAR(500),
   id_medio INT,
   FOREIGN KEY (id_medio) REFERENCES Medios_de_Comunicacion(id_medio)
 );
@@ -35,7 +35,7 @@ CREATE TABLE Categorias (
   url_categoria VARCHAR(100),
   id_categoria INT PRIMARY KEY,
   nombre_categoria VARCHAR(100),
-  xpath_categoria VARCHAR(100),
+  xpath_categoria VARCHAR(500),
   id_sitioweb INT,
   FOREIGN KEY (id_sitioweb) REFERENCES Sitios_web(id_sitioweb)
 );
@@ -43,10 +43,10 @@ CREATE TABLE Categorias (
 -- Crear tabla Noticia
 CREATE TABLE Noticia (
   id_noticia INT PRIMARY KEY,
-  url_noticia VARCHAR(100),
-  xpath_fecha VARCHAR(100),
-  xpath_titulo VARCHAR(100),
-  xpath_contenido VARCHAR(100),
+  url_noticia VARCHAR(500),
+  xpath_fecha VARCHAR(500),
+  xpath_titulo VARCHAR(500),
+  xpath_contenido VARCHAR(500),
   id_sitioweb INT,
   FOREIGN KEY (id_sitioweb) REFERENCES Sitios_web(id_sitioweb)
 );
